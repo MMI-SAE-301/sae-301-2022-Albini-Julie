@@ -10,7 +10,7 @@ module.exports = {
   "Noir": "#000000",
   "Blanc": "#ffffff"
  },
- "fontSize": {
+ fontSize: {
   "base": "1.5625rem",
   "lg": "2.5rem"
  },
