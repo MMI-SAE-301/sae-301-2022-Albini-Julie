@@ -1,11 +1,11 @@
 # code de base pour TP (et future SAE 301)
 
-- **Nom :**
-- **Prénom :**
-- **URL maquette Figma:**
-- **URL publique du site :**
-- **URL projet Supabase :**
-  - [ ] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
+- \*\*Nom :Albini
+- \*\*Prénom :Julie
+- \*\*URL maquette Figma: https://www.figma.com/file/ZABrDpBYDw5WOJZvlEN5O5/Maquette_SAE301_JulieAlbini?node-id=4%3A8
+- \*\*URL publique du site : https://tiktakjuliealbini.netlify.app
+- \*\*URL projet Supabase : https://ldkbfjzlghclsojupfkk.supabase.co
+  - [x] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
 
@@ -13,9 +13,9 @@
 
 Vous avez rendu à la racine du projet :
 
-- [ ] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
-- [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
-- [ ] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
+- [x] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
+- [x] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
+- [x] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
