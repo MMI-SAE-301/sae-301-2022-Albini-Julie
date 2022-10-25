@@ -34,8 +34,9 @@ Noté sur 40.
 - [ ] usage de Classes utilitaires (1pt)
   - lien vers sa définition
   - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
+- [x] Composants graphiques (0-1-2pts)
   - liens
+    [Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -43,8 +44,8 @@ Noté sur 40.
   - liens
 - Mise en page CSS (0-1-2pts)
   - Quelles techniques (Grilles Flex...)
-    - ...
   - liens
+    - flex : [Intégration flex](/src//components//Header.vue#l2)
   - [ ] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
   - [ ] Plusieurs tailles
@@ -62,3 +63,6 @@ Noté sur 40.
   - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
 
 [^1]: Supprimez les mentions inutiles.
+
+Commits :
+[Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
