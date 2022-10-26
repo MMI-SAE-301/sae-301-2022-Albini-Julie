@@ -56,16 +56,16 @@ Noté sur 40.
   - liens
     - flex : [Intégration flex](/src//components//Header.vue#l2)
     - grid : [Intégration grid](./src//pages//Connexion.vue#l47)
-  - [ ] Mise en page fluide
-- [ ] Mobile First (0-1-2pts)
-  - [ ] Plusieurs tailles
-    - Lesquelles...
+  - [x] Mise en page fluide
+- [x] Mobile First (0-1-2pts)
+  - [x] Plusieurs tailles
+    - Lesquelles... sm, lg, md, xl
 - [ ] Dark Mode (0-1-2pts)
   - [ ] Simple usage de 'dark:'
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
     - liens
 - "tailwin.config.js" (0-1-2pts)
-  - [ ] usage basique couleurs/fonts
+  - [x] usage basique couleurs/fonts
   - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
     - liens
 - Composants "accessibles" (0-1-2pts)
