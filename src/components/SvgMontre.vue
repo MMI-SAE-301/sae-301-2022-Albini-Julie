@@ -9,10 +9,9 @@
 
 
 
-<style>.cls-1,.cls-2,.cls-1,.cls-3{stroke:#000;stroke-width:0.5px;}.cls-1,.cls-3,.cls-6,.cls-7{stroke-miterlimit:10;}.cls-4{font-size:98px;font-family:MontserratAlternates-Light, Montserrat Alternates;font-weight:300;letter-spacing:-0.11em;}.cls-5{font-size:30px;font-family:MontserratAlternates-Medium, Montserrat Alternates;font-weight:500;letter-spacing:-0.01em;}.cls-6,.cls-7{stroke:#1d1d1b;stroke-width:3px;}</style>
 
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768"><defs></defs>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="300 0 700 768"><defs></defs>
 
 <g id="bracelet"><path :fill="bracelet" class="cls-1" d="M550.41,73.36S602.58,53.07,649,54.52s95.65,15.94,95.65,15.94-29,271-26.09,349.28S746.06,727,746.06,727s-47.83,21.73-92.76,18.84-97.1-17.4-97.1-17.4S580.09,489.3,580.09,395.1,550.41,73.36,550.41,73.36Z"/><path :fill="bracelet" class="cls-1" d="M509.83,199.45S549,127,544.61,73.36c0,0,17.39-27.53,102.9-27.53S757.65,64.67,757.65,64.67s14.8,110.14,35.09,130.43c0,0-96,18.84-148.13,18.84S509.83,199.45,509.83,199.45Z"/><path :fill="bracelet" class="cls-1" d="M795.14,607.79s-41.87,70.92-39.57,124.67c0,0-18.43,26.85-103.87,23.59s-109.35-23-109.35-23S531.76,622.4,512.26,601.35c0,0,96.61-15.17,148.74-13.18S795.14,607.79,795.14,607.79Z"/></g>
 

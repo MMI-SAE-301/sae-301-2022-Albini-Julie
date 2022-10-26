@@ -31,12 +31,18 @@ Noté sur 40.
 - Code et Commit (0-2-4-6pts)
 - Code HTML spécifiquement sémantique et accessible (0-1-2pts)
 
-- [ ] usage de Classes utilitaires (1pt)
+- [x] usage de Classes utilitaires (1pt)
+
   - lien vers sa définition
   - lien vers son usage
+    définition classe titre : [Intégration classe titre](/src/index.css#l18)
+    usage classe titre : [usage classe titre](/src//components//Footer.vue#l15), [usage classe titre](/src//components//Footer.vue#l3)
+
 - [x] Composants graphiques (0-1-2pts)
   - liens
     [Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
+    [Intégration Footer]()
+    [Intégration Bouton]()
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -46,6 +52,7 @@ Noté sur 40.
   - Quelles techniques (Grilles Flex...)
   - liens
     - flex : [Intégration flex](/src//components//Header.vue#l2)
+    - grid : [Intégration grid](./src//pages//Connexion.vue#l47)
   - [ ] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
   - [ ] Plusieurs tailles
@@ -66,3 +73,5 @@ Noté sur 40.
 
 Commits :
 [Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
+[Intégration Footer]()
+[Intégration page connexion]()

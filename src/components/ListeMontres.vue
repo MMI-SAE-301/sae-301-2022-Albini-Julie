@@ -37,13 +37,13 @@ if (props.id) {
 
 </script>
 <template>
-  <ul class="md:flex-nowrap  md:relative md:w-full flex md:snap-x md:overflow-x-auto pb-14">
+  <ul class="md:flex-nowrap md:relative md:w-full flex md:snap-x md:overflow-x-auto pb-14">
     <li class="flex flex-col justify-center items-center" v-for="montre in montres" :key="montre.id">
-      <div class="w-[600px]">
-      <router-link
+      <div class="shrink-0 md:w-[30vw] lg:w-[23vw]">
+      <router-link class="block"
         :to="{ name: 'montres-edit-id', params: { id: montre.id_montre } }"
       >
-        <SvgMontre class="w-[80%] snap-center shrink-0" v-bind="montre" />
+        <SvgMontre class="w-full snap-center shrink-0" v-bind="montre" />
       </router-link>
       </div>
       <bouton class="w-1/2" @click= "montre.commande = true">Commander</bouton>
