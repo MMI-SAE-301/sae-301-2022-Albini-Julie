@@ -1,6 +1,8 @@
 <template>
     <div class="md:hidden flex justify-between mt-2">
-        <logo class="w-1/6 h-1/6 ml-5"/>
+      <RouterLink to="/">
+        <logo class="xl:w-1/6 xl:h-1/6 w-[90px] h-[94px] ml-5"/>
+      </RouterLink>
     <div>
     <div class="mb-5 flex flex-wrap justify-between">
 <button class="relative z-50 m-5" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert " 
@@ -42,16 +44,13 @@
 
     <div class="hidden md:block">
         <div class="flex items-center justify-evenly border-b-2 border-black ">
-        <logo/>
+        <RouterLink to="/">
+            <logo/>
+        </RouterLink>
         <RouterLink class="font-eb-garamond text-[40px]" to="/Personnalisation">Personnalisation</RouterLink>
         <RouterLink class="font-eb-garamond text-[40px]" to="/Connexion">Connexion</RouterLink>
         </div>
     </div>
-    
-
-<Suspense>
-  <router-view class="m-2 border-2 p-2" />
-</Suspense>
 
 
 </template>
