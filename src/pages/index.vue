@@ -13,7 +13,7 @@
         <p class="flex gap-2 texte">Alors vous aussi, <span class="texte text-violet_foncé">créez votre montre Tik Tak !</span></p>
 
         <div class="flex justify-center gap-5 mt-5">
-            <RouterLink to="/personnaliser">
+            <RouterLink to="/Personnalisation">
                 <bouton>Personnaliser</bouton>
             </RouterLink>
             <RouterLink to="/connexion">
@@ -45,7 +45,9 @@
 
 <div class="md:flex mt-20 text-center items-center">
     <h3 class="titre mb-5 mx-28">Créer votre montre <span class="titre text-violet_foncé">française unique de fabrication artisanale et soutenez l’emploi !</span>Faites confiance à <span class="titre text-violet_foncé">Tik Tak</span>!</h3>
-    <bouton class="flex m-auto">Personnaliser</bouton>
+    <RouterLink to="/Personnalisation">
+        <bouton class="flex m-auto">Personnaliser</bouton>
+    </RouterLink>
 </div>
 </div>
 <Footer class="mt-10"/>
