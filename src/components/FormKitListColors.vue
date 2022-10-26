@@ -18,7 +18,7 @@ defineProps<{
     input-class="peer sr-only"
     options-class="grid grid-cols-5 gap-1">
     <template #label="context">
-    <div class="h-6 w-6 rounded-full border-2 border-white peer-checked:border-violet_foncé" :style="{backgroundColor: context.option.value}"/>
+    <div class="h-10 w-10 rounded-full border-2 border-white peer-checked:border-violet_foncé" :style="{backgroundColor: context.option.value}"/>
   <span class="sr-only">{{context.option.label}}</span></template>
     </FormKit>
 </template>
