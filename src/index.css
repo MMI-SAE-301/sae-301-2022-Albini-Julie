@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .h1 {
+        @apply font-eb-garamond xl:text-[70px] md:text-[50px] text-[30px]
+    }
+
+    .texte {
+        @apply font-work-sans xl:text-[25px] md:text-[20px] text-[20px]
+    }
+
+    .h2 {
+        @apply font-eb-garamond text-[40px] lg:text-[50px] xl:text-[80px]
+    }
+
+    .titre {
+        @apply font-eb-garamond text-[25px] lg:text-[25px] xl:text-[30px]
+    }
+}
+
