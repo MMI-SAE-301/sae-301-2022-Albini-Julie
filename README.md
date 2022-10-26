@@ -32,6 +32,7 @@ Noté sur 40.
 - Code HTML spécifiquement sémantique et accessible (0-1-2pts)
 
 - [x] usage de Classes utilitaires (1pt)
+      [Création classes utilisataires](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/d9ab8c310fe5dea2d471ccf62ee8cddd1e55f085)
 
   - lien vers sa définition
   - lien vers son usage
@@ -41,8 +42,10 @@ Noté sur 40.
 - [x] Composants graphiques (0-1-2pts)
   - liens
     [Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
-    [Intégration Footer]()
-    [Intégration Bouton]()
+    [Intégration Footer](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5091510801319c27824583da8e8344f7811e6f38)
+    [Intégration Bouton](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/a909e1f0ef2286356b46be8a7524ae112a6c1893)
+    [Modification Bouton](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/d2a5836ed5d40c1d2c81eb565fcd9d4326ceadff)
+    [Intégration liste des montres](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/8bb59e594f190358874c9dd0ebf1dac9cb9a2f4d)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -73,5 +76,9 @@ Noté sur 40.
 
 Commits :
 [Intégration Header](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5204690ee7a40d9ca6159b5bd68a41010e33b2f0)
-[Intégration Footer]()
-[Intégration page connexion]()
+[Intégration Footer](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/5091510801319c27824583da8e8344f7811e6f38)
+[Intégration page connexion](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/3c3dcc53ae292a1e5999588c2310bebc7d71cdb2)
+[Intégration page Accueil](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/09877cb155202555b6d6b3d18c497733c47ba314)
+[Intégration liste des montres](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/8bb59e594f190358874c9dd0ebf1dac9cb9a2f4d)
+[Intégration page id](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/255ac78eff83267378f7f9da5ee3079b85104c38)
+[Création classes utilisataires](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/d9ab8c310fe5dea2d471ccf62ee8cddd1e55f085)
