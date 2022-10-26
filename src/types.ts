@@ -6,17 +6,15 @@ export interface Montre {
 
 export const colors = {
   "#000000": "Noir",
-  "#FFFFFF": "Blanc",
-  "#FF0000": "Rouge",
-  "#00FF00": "Vert",
-  "#0000FF": "Bleu",
-  "#FFFF00": "Jaune",
-  "#FF00FF": "Magenta",
-  "#00FFFF": "Cyan",
-  "#C0C0C0": "Gris clair",
-  "#808080": "Gris",
-  "#800000": "Marron",
-  "#808000": "Olive",
+  "#FC3737": "Rouge",
+  "#EC8321": "Orange",
+  "#42FF99": "Vert",
+  "#57BDF6": "Bleu",
+  "#FBEF84": "Jaune",
+  "#FFADF7": "Rose",
+  "#C3C3C3": "Gris",
+  "#745C5C": "Marron",
+  "#A82DF3": "violet",
 };
 
 export const materiaux = [
@@ -29,7 +27,7 @@ export const materiaux = [
     label: "Tissu",
   },
   {
-    value: "/synthétique.jpg",
-    label: "Synthétique",
+    value: "/métal.webp",
+    label: "métal",
   },
 ];
