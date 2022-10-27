@@ -46,7 +46,7 @@ WHERE materiaux.id_mat = montre.id_mat;
 
 --
 -- code pour la création des policies
-CREATE POLICY "Enable delete for users based on user_id" ON "public"."montre"
+CREATE POLICY "Delete for authentificated users " ON "public"."montre"
 AS PERMISSIVE FOR DELETE
 TO authenticated
 USING (((uid() = id_user) AND (commande = false)))
@@ -55,19 +55,20 @@ USING (((uid() = id_user) AND (commande = false)))
 CREATE POLICY "Enable insert for authenticated users only" ON "public"."montre"
 AS PERMISSIVE FOR INSERT
 TO authenticated
- 
+
 WITH CHECK ((uid() = id_user))
 
 
-CREATE POLICY "Enable read access for all users" ON "public"."montre"
+CREATE POLICY "Enable read access for authentificated users" ON "public"."montre"
 AS PERMISSIVE FOR SELECT
 TO authenticated
 USING ((uid() = id_user))
+
  
 
 
-CREATE POLICY "Enable update for users based on email" ON "public"."montre"
+CREATE POLICY "Enable update for authentificated users" ON "public"."montre"
 AS PERMISSIVE FOR UPDATE
 TO authenticated
-USING ((uid() = id_user))
-WITH CHECK ((commande = false))
+USING (((uid() = id_user) AND (commande = false)))
+WITH CHECK ((uid() = id_user))
