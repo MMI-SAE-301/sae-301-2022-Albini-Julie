@@ -47,8 +47,8 @@ if (props.id) {
         <span class="sr-only">Image montre</span>
       </router-link>
       </div>
-      <bouton class="w-1/2" @click= "montre.commande = true">Commander</bouton>
-      <span class="sr-only">Bouton commander</span>
+      <!--<bouton class="w-1/2" @click= "montre.commande = true">Commander</bouton>
+      <span class="sr-only">Bouton commander</span>-->
     </li>
   </ul>
 </template>
