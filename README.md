@@ -60,16 +60,19 @@ Noté sur 40.
 - [x] Mobile First (0-1-2pts)
   - [x] Plusieurs tailles
     - Lesquelles... sm, lg, md, xl
-- [ ] Dark Mode (0-1-2pts)
-  - [ ] Simple usage de 'dark:'
+- [x] Dark Mode (0-1-2pts)
+  - [x] Simple usage de 'dark:'
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
     - liens
+      [Mise en place dark mode](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/14021e6909084272efcc7dd5c6ad2736b2369613)
 - "tailwin.config.js" (0-1-2pts)
   - [x] usage basique couleurs/fonts
   - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
     - liens
+      [Usage basique couleurs/fonts]
 - Composants "accessibles" (0-1-2pts)
-  - [ ] textes "accessibles" (eg. 'sr-only')
+  - [x] textes "accessibles" (eg. 'sr-only')
+        [Mise en place sr-only](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/694bf7712ea634adfd2216ce98c2ad4f4937d30c)
   - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
 
 [^1]: Supprimez les mentions inutiles.
@@ -81,4 +84,9 @@ Commits :
 [Intégration page Accueil](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/09877cb155202555b6d6b3d18c497733c47ba314)
 [Intégration liste des montres](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/8bb59e594f190358874c9dd0ebf1dac9cb9a2f4d)
 [Intégration page id](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/255ac78eff83267378f7f9da5ee3079b85104c38)
+[modification page id](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/cda2fd7e543bfc655bcd078b295b2e08ca335606)
 [Création classes utilisataires](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/d9ab8c310fe5dea2d471ccf62ee8cddd1e55f085)
+[Mise en place sr-only](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/694bf7712ea634adfd2216ce98c2ad4f4937d30c)
+[Mise en place dark mode](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/14021e6909084272efcc7dd5c6ad2736b2369613)
+[Création formulaire de la montre](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/bfcd483c7c37240e8d97669b24fcf0392b3f06a9)
+[Création page Personnalisation](https://github.com/MMI-SAE-301/sae-301-2022-Albini-Julie/commit/471f5f0bdaac5b366101819ab59730fb45b5c320)

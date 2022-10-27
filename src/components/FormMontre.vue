@@ -40,6 +40,17 @@ if (props.id) {
   }
 }
 
+// @ts-ignore
+ async function upsertCommande(dataForm, node) {
+  console.log(dataForm);
+  const { data, error } = await supabase.from("montre").upsert(dataForm);
+  if (error) node.setErrors([error.message]);
+  else {
+    node.setErrors([]);
+    router.push("/");
+  }
+}
+
 async function supprimerMontre() {
   const { data, error } = await supabase
     .from("montre")
@@ -116,9 +127,12 @@ async function supprimerMontre() {
     </div>
    </div>
     </div>
+    <FormKit label="Commander" label-class="bg-violet_foncé text-white gap-2 rounded-lg p-3 text-[20px] md:text-[20px] xl:text-[28px] " type="checkbox" name="commande" input-class="sr-only"/>
+
 </FormKit>
 </div>
 </div>
+<div class="flex justify-center">
 <button
         type="button"
         v-if="montre.id_montre"
@@ -127,6 +141,7 @@ async function supprimerMontre() {
       >
         Supprimer la montre
       </button>
+      </div>
       <span class="sr-only">Suppression</span>
       <dialog
         ref="dialogSupprimer"
@@ -154,8 +169,10 @@ async function supprimerMontre() {
         <p class="texte mx-28 font-semibold text-center">Fier de vous ? Vous pouvez désormais commander votre montre et avec Tik Tak, vous pouvez bénéficier de la <span class="m-auto text-violet_foncé">livraison rapide</span> qui vous permettra de porter votre montre dans <span class="text-violet_foncé">2 jours</span> !</p>
         </div>
         <div class="md:w-1/3 my-5 flex flex-col items-center">
-        <bouton @click= "montre.commande = true">Commander</bouton>
+        <!--<bouton @click= "montre.commande = true">Commander</bouton>
         <span class="sr-only">Commander</span>
+        -->
+          
         <p class="titre font-work-sans font-semibold text-center">Livraison rapide en 2j !</p>
         </div>
       </div>
