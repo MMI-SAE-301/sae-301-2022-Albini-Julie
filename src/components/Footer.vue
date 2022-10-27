@@ -1,6 +1,6 @@
 <template>
-    <div class="flex bg-black p-5 justify-between items-center">
-        <p class="titre ml-5 font-bold text-white font-work-sans">Nous contacter</p>
+    <div class="flex gap-2 lg:p-5 bg-black justify-between items-center">
+        <p class="titre font-bold text-white font-work-sans">Nous contacter</p>
         <span class="sr-only">Nous contacter</span>
         <div class="flex gap-5">
             <a href="https://www.facebook.com/">
