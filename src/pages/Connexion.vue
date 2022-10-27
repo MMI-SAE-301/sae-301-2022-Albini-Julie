@@ -6,6 +6,8 @@ import { ref } from "@vue/reactivity";
 import { supabase, user } from "../supabase";
 import logoBlanc from "./../components/icons/logo_blanc.vue"
     
+const nvlUtilisateur = ref(false);
+// @ts-ignore
 async function signIn(data, node) {
       const { user, error } = await (nvlUtilisateur.value
         ? supabase.auth.signUp(data)
@@ -15,15 +17,17 @@ async function signIn(data, node) {
         node.setErrors([error.message]);
       }
     }
-    const nvlUtilisateur = ref(false);
+
 
     async function loginGoogle() {
+      // @ts-ignore
   const { data, error } = await supabase.auth.signIn({
     provider: 'google',
   })
 }
 
 async function loginFacebook() {
+  // @ts-ignore
   const { data, error } = await supabase.auth.signIn({
     provider: 'facebook',
   })
