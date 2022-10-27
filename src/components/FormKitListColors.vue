@@ -6,6 +6,7 @@ defineProps<{
 }>();
 </script>
 <template>
+  <div class="dark:bg-black dark:text-white">
   <FormKit
     :name="name"
     :label="label"
@@ -21,4 +22,5 @@ defineProps<{
     <div class="h-10 w-10 rounded-full border-2 border-white peer-checked:border-violet_foncé" :style="{backgroundColor: context.option.value}"/>
   <span class="sr-only">{{context.option.label}}</span></template>
     </FormKit>
+  </div>
 </template>

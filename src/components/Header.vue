@@ -1,14 +1,16 @@
 <template>
-    <div class="md:hidden flex justify-between mt-2">
+    <div class="md:hidden dark:bg-black flex justify-between mt-2">
       <RouterLink to="/">
-        <logo class="xl:w-1/6 xl:h-1/6 w-[90px] h-[94px] ml-5"/>
+        <logo class=" dark:hidden xl:w-1/6 xl:h-1/6 w-[90px] h-[94px] ml-5"/>
+        <logoBlanc class="hidden dark:block"/>
       </RouterLink>
       <span class="sr-only">Accueil</span>
     <div>
     <div class="mb-5 flex flex-wrap justify-between">
 <button class="relative z-50 m-5" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert " 
 :class="[menuOuvert ? 'hidden' : '',]">
-  <Menu1 class="mx-5" />
+  <Menu1 class="mx-5 dark:hidden" />
+  <menuBlanc class="hidden dark:block"/>
       <span class="sr-only">Menu</span>
     </button>
     <button class="relative z-50 m-5" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert " 
@@ -45,10 +47,11 @@
   </div>
   </div>
 
-    <div class="hidden md:block">
-        <div class="flex items-center justify-evenly border-b-2 border-black ">
+    <div class="hidden md:block dark:bg-black dark:text-white">
+        <div class="flex items-center justify-evenly border-b-2 border-black dark:border-white">
         <RouterLink to="/">
-            <logo/>
+            <logo class="dark:hidden"/>
+            <logoBlanc class="hidden dark:block"/>
         </RouterLink>
         <span class="sr-only">Accueil</span>
         <RouterLink class="font-eb-garamond text-[40px]" to="/Personnalisation">Personnalisation</RouterLink>
@@ -65,6 +68,8 @@
 import logo from "../components/icons/logo.vue"
 import Menu1 from "./icons/menu.vue"
   import Croix from "./icons/croix.vue"
+  import logoBlanc from "../components/icons/logo_blanc.vue"
+  import menuBlanc from "../components/icons/menuBlanc.vue"
 
   import { ref } from "@vue/reactivity";
 
