@@ -15,9 +15,11 @@
         <div class="flex justify-center gap-5 mt-5">
             <RouterLink to="/Personnalisation">
                 <bouton>Personnaliser</bouton>
+                <span class="sr-only">Bouton personnaliser</span>
             </RouterLink>
             <RouterLink to="/connexion">
                 <bouton class="bg-black">Se connecter</bouton>
+                <span class="sr-only">Bouton se connecter</span>
             </RouterLink>
         </div>
     </div>
@@ -48,6 +50,7 @@
     <RouterLink to="/Personnalisation">
         <bouton class="flex m-auto">Personnaliser</bouton>
     </RouterLink>
+    <span class="sr-only">Personnaliser</span>
 </div>
 </div>
 <Footer class="mt-10"/>

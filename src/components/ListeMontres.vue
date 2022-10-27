@@ -44,9 +44,11 @@ if (props.id) {
         :to="{ name: 'montres-edit-id', params: { id: montre.id_montre } }"
       >
         <SvgMontre class="w-full snap-center shrink-0" v-bind="montre" />
+        <span class="sr-only">Image montre</span>
       </router-link>
       </div>
       <bouton class="w-1/2" @click= "montre.commande = true">Commander</bouton>
+      <span class="sr-only">Bouton commander</span>
     </li>
   </ul>
 </template>

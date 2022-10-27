@@ -41,9 +41,11 @@ async function loginFacebook() {
       
 
         <div class="mx-5">
+          <span class="sr-only">Se déconnecter</span>
     <bouton class="bg-violet_foncé mb-5" v-if="user" @pointerdown="supabase.auth.signOut()">
           Se déconnecter ({{ user.email }})
     </bouton>
+    
         <div v-else class="md:grid md:grid-cols-2 items-center">
         <FormKit
           
@@ -56,8 +58,11 @@ async function loginFacebook() {
  },
 }"
         >
+        <span class="sr-only">Se connecter</span>
           <FormKit wrapper-class="items-center m-5 justify-start gap-3 max-w-xs" name="email" label="Adresse mail" type="email" />
+          <span class="sr-only">Champ entrée adresse mail</span>
           <FormKit wrapper-class="items-center m-5 justify-start gap-3 max-w-xs" name="password" label="Mot de passe" type="password" />
+          <span class="sr-only">Champ entrée mot de passe</span>
           <div class="flex gap-2 items-center">
             <p class="titre ">Vous n'avez pas encore de compte ?</p>
             <formKit
@@ -68,6 +73,7 @@ async function loginFacebook() {
               type="checkbox"
               v-model="nvlUtilisateur"
             />
+            <span class="sr-only">S'inscrire</span>
           </div>
         </FormKit>
         
@@ -75,10 +81,12 @@ async function loginFacebook() {
         <div class="md:border-l  md:border-black flex flex-col items-center">
         <div class="flex flex-wrap justify-center">
         <bouton class="bg-red-600 rounded-full " @click="loginGoogle()">Se connecter avec Google</bouton> 
+        <span class="sr-only">Se connecter avec Google</span>
         </div>
         
         <div class="flex my-5 flex-wrap justify-center">
         <bouton class="bg-blue-900 rounded-full" @click="loginFacebook()">Se connecter avec Facebook</bouton> 
+        <span class="sr-only">Se connecter avec Facebook</span>
         </div>
         </div>
         </div>

@@ -3,6 +3,7 @@
       <RouterLink to="/">
         <logo class="xl:w-1/6 xl:h-1/6 w-[90px] h-[94px] ml-5"/>
       </RouterLink>
+      <span class="sr-only">Accueil</span>
     <div>
     <div class="mb-5 flex flex-wrap justify-between">
 <button class="relative z-50 m-5" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert " 
@@ -29,11 +30,13 @@
             <router-link class="" to="/Personnalisation">
                 Personnalisation 
             </router-link>
+            <span class="sr-only">Personnaliser</span>
           </li>
           <li class="mt-5">
             <router-link class="" to="/Connexion">
                 Connexion
             </router-link>
+            <span class="sr-only">Connexion</span>
           </li>
                </div>
       </ul>
@@ -47,8 +50,11 @@
         <RouterLink to="/">
             <logo/>
         </RouterLink>
+        <span class="sr-only">Accueil</span>
         <RouterLink class="font-eb-garamond text-[40px]" to="/Personnalisation">Personnalisation</RouterLink>
+        <span class="sr-only">Personnalisation</span>
         <RouterLink class="font-eb-garamond text-[40px]" to="/Connexion">Connexion</RouterLink>
+        <span class="sr-only">Connexion</span>
         </div>
     </div>
 
