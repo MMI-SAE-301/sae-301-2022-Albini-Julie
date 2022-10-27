@@ -11,7 +11,7 @@
 
 
 <template>
-    <svg width="614" height="869" viewBox="0 0 614 869" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="614" height="400" viewBox="0 0 614 869" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Montre 1">
 <g id="bracelet">
 <g id="Bracelet">
