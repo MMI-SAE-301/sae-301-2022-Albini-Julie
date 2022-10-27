@@ -3,7 +3,7 @@
 - \*\*Nom :Albini
 - \*\*Prénom :Julie
 - \*\*URL maquette Figma: https://www.figma.com/file/ZABrDpBYDw5WOJZvlEN5O5/Maquette_SAE301_JulieAlbini?node-id=4%3A8
-- \*\*URL publique du site : https://tiktakjuliealbini.netlify.app
+- \*\*URL publique du site : http://sae301.albini.fr/
 - \*\*URL projet Supabase : https://ldkbfjzlghclsojupfkk.supabase.co
   - [x] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
